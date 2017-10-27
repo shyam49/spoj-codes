@@ -1,11 +1,12 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
+int a[300000],b[300000],ra[300000],rb[300000],res[300000],fres[300000];
 int main()
 {
 	map<int,string> mns;
 	map<string,int> msn;
-	int i,n,j,a[300000],b[300000],ra[300000],rb[300000],res[300000],fres[300000],k,t,la,lb,carry;
+	int i,n,j,k,t,la,lb,carry;
 	mns[0]="063";
 	mns[1]="010";
 	mns[2]="093";
