@@ -7,13 +7,13 @@ int main()
 	ll h[50000];
 	cin>>t;
 	while(t--){
-		cin>>n>>k;
+		scanf("%lld %lld",&n,&k);
 		ans=1000000001;
 		for(i=0;i<n;i++){
 			cin>>h[i];
 		}
 		if(k==1){
-			cout<<"0"<<endl;
+			printf("0\n");
 		}	
 		else{
 			sort(h,h+n);
@@ -22,7 +22,7 @@ int main()
 				if(ans > a)
 				ans=a;	
 			}
-			cout<<ans<<endl;
+			printf("%lld\n",ans);
 		}
 	}
 	return 0;
